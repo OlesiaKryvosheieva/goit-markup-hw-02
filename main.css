@@ -93,6 +93,7 @@ h3 {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* Section Особливості */
@@ -185,6 +186,11 @@ h3 {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color);
+}
+
 /* Portfolio */
 
 .portfolio-button {
@@ -196,6 +202,7 @@ h3 {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
 .portfolio-button:hover,
