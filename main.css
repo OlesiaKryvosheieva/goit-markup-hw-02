@@ -12,8 +12,8 @@
 body {
   color: var(--secondary-text-color);
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 h2,
@@ -41,10 +41,7 @@ h3 {
 .site-nav .link,
 .contact-nav .link {
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.42;
   letter-spacing: 0.02em;
 }
@@ -90,6 +87,8 @@ h3 {
 .hero-button {
   background-color: var(--accent-color);
   color: var(--tertiary-text-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -113,14 +112,13 @@ h3 {
 
 .features-title {
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .features-text {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
@@ -129,6 +127,7 @@ h3 {
 
 .our-work-title,
 .member-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -145,7 +144,6 @@ h3 {
 }
 
 .member-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -154,6 +152,7 @@ h3 {
 /* Footer */
 .footer {
   background-color: #2f303a;
+  font-style: normal;
 }
 
 .footer-link {
@@ -170,7 +169,6 @@ h3 {
 .address,
 .footer-contact {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -212,13 +210,13 @@ h3 {
 }
 
 .portfolio-title {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
